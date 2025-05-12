@@ -104,6 +104,9 @@
     display: flex;
   }
 
+  .hg {
+    font-size: 14px!important;
+  }
   .jur {
     height: 60vh;
     padding: 0px 10px;

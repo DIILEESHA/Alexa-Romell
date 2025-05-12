@@ -21,7 +21,7 @@ const Header = () => {
             className="header_img pasiya"
           />
 
-          <p className="header_p">
+          <p className="header_p hg">
             CELEBRATING A LOVE STORY YEARS IN THE MAKING—WHERE EVERY CHAPTER LED
             US HERE, AND FOREVER BEGINS NOW.
           </p>
