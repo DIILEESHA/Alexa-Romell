@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Countdown from "./components/countdown/Countdown";
 import Header from "./components/header/Header";
 import Registry from "./components/header/Registry";
@@ -24,10 +24,13 @@ const Home = () => {
   );
 };
 
-const App = () => {
+const AppContent = () => {
+  const location = useLocation();
+  const isAdminPage = location.pathname === "/admin";
+
   return (
-    <Router>
-      <Nav />
+    <>
+      {!isAdminPage && <Nav />}
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -35,10 +38,16 @@ const App = () => {
         <Route path="/faq" element={<Faq />} />
         <Route path="/rsvp" element={<Rsvp />} />
         <Route path="/admin" element={<AdminDashboard />} />
-        {/* Add more routes here if needed */}
       </Routes>
+      {!isAdminPage && <div className="footer">© 2025 Alexa & Romell</div>}
+    </>
+  );
+};
 
-      <div className="footer">© 2025 Alexa & Romell</div>
+const App = () => {
+  return (
+    <Router>
+      <AppContent />
     </Router>
   );
 };
