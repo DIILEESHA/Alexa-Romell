@@ -61,7 +61,7 @@ const Rsvp = () => {
           <p className="rsvp_p">
             We can't wait to celebrate our special day with you, and your
             presence means the world to us! Please let us know if you will be
-            able to join in the joy and festivities by April 1st, 2026
+            able to join in the joy and festivities by September 27, 2025
           </p>
 
           <div className="form_area">

@@ -5,7 +5,7 @@ const Header = () => {
     <div className="header_container">
       <div className="header_grid">
         <div className="exact_date">
-          <h2 className="date">11 · 08 · 2026</h2>
+          <h2 className="date">11 · 08 · 2025</h2>
         </div>
         <div className="header_sub ty">
           <img

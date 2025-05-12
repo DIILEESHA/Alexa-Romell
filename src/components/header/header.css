@@ -102,7 +102,11 @@
   }
   .header_grid {
     display: flex;
-    padding: 20px 20px 90px 20px;
+    padding: 40px 20px 90px 20px;
+  }
+
+  .exact_date{
+    top: 60px;
   }
 
   .hg {
