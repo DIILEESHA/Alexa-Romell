@@ -34,3 +34,11 @@
   filter: blur(3px); /* Adjust the blur intensity */
   z-index: 1;
 }
+
+
+
+@media screen and (max-width:700px){
+  .mallika{
+    height: 50vh;
+  }
+}
