@@ -1,0 +1,36 @@
+.mallika {
+}
+.mallika {
+    position: relative;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.kos li{
+    line-height:200%;
+
+}
+
+.kos{
+    margin-bottom: 20px;
+}
+
+.mallika::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i.pinimg.com/736x/ec/d9/0d/ecd90dcaafdfb3cf6639098da9b44b54.jpg");
+  background-image: url("https://i.pinimg.com/736x/cc/f7/c2/ccf7c257c306a410dfe521b96c1c5c74.jpg")!important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px); /* Adjust the blur intensity */
+  z-index: 1;
+}

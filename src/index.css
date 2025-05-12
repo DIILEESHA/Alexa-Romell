@@ -1,0 +1,36 @@
+:root {
+  --bc: #f8f7f5;
+  --accent-color: #171511;
+}
+
+@font-face {
+  font-family: "silk";
+  src: url("./fonts/silk.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "hel";
+  src: url("./fonts/hel2.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.footer {
+  font-family: "hel";
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+}
