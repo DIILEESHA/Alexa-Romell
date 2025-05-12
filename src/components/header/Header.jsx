@@ -5,7 +5,7 @@ const Header = () => {
     <div className="header_container">
       <div className="header_grid">
         <div className="exact_date">
-          <h2 className="date">26 · 06 · 2026</h2>
+          <h2 className="date">11 · 08 · 2026</h2>
         </div>
         <div className="header_sub ty">
           <img
@@ -22,8 +22,8 @@ const Header = () => {
           />
 
           <p className="header_p">
-            Join us as we embark on a journey of love, joy, and eternal
-            happiness.
+            CELEBRATING A LOVE STORY YEARS IN THE MAKING—WHERE EVERY CHAPTER LED
+            US HERE, AND FOREVER BEGINS NOW.
           </p>
         </div>
         <div className="header_sub ty">

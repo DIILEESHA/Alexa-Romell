@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import Countdown from "./components/countdown/Countdown";
 import Header from "./components/header/Header";
 import Registry from "./components/header/Registry";
@@ -10,13 +15,15 @@ import AdminDashboard from "./pages/AdminDashboard";
 import DressCode from "./pages/dresscode/Dress";
 import Nav from "./components/nav/Nav";
 import ScrollToTop from "../ScrollToTop";
+import Video from "./pages/dresscode/Video";
 
 // Homepage Component
 const Home = () => {
   return (
     <>
       <Header />
-      <Schedule />
+      {/* <Schedule /> */}
+      <Video />
       <Location />
       <Countdown />
       <Registry />

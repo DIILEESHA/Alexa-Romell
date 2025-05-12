@@ -37,7 +37,7 @@
   font-family: "silk", serif;
   font-size: 65px;
   font-weight: 300;
-  color: #5a3e2b;
+  color: #000;
   margin-bottom: 20px;
 }
 
@@ -47,7 +47,7 @@
   font-size: 18px;
   text-align: center;
   margin: 40px 0;
-  color: #5a3e2b;
+  color: #000;
 }
 
 .form_area {
@@ -62,7 +62,7 @@
   margin-bottom: 10px;
   font-family: "hel", sans-serif;
   font-size: 16px;
-  color: #5a3e2b;
+  color: #000;
 }
 
 .rsvp_input {
@@ -118,11 +118,11 @@
 
 .option_label input {
   margin-right: 10px;
-  accent-color: #b8a38d;
+  accent-color: #000;
 }
 
 .option_text {
-  color: #5a3e2b;
+  color: #333;
 }
 
 .submit_section {
@@ -131,7 +131,7 @@
 }
 
 .submit_button {
-  background-color: #b8a38d;
+  background-color: #333;
   color: white;
   border: none;
   padding: 12px 30px;

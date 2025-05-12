@@ -24,7 +24,7 @@ const Nav = () => {
               <Link to="/">Home</Link>
             </li>
             <li className="nav_li">
-              <Link to="/dress">Dress Code</Link>
+              <Link to="/dress">What to wear</Link>
             </li>
           </ul>
         </div>
@@ -52,7 +52,7 @@ const Nav = () => {
             <Link to="/">Home</Link>
           </li>
           <li onClick={toggleMobileMenu}>
-            <Link to="/dress">Dress Code</Link>
+            <Link to="/dress">What to wear</Link>
           </li>
           <li onClick={toggleMobileMenu}>
             <Link to="/faq">FAQ</Link>

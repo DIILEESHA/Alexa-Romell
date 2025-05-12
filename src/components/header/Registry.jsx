@@ -6,7 +6,7 @@ const Registry = () => {
     <div className="registry_container">
       <div className="r_grid">
         <div className="r_sub">
-          <h2 className="r_title">registry</h2>
+          <h2 className="r_title">Support the bride and groom</h2>
           <div class="image-wrapper">
             <img
               src="https://i.imgur.com/SbfGgFA.jpeg"
@@ -30,7 +30,7 @@ const Registry = () => {
           </button>
         </div>
         <div className="r_sub">
-          <h2 className="r_title">dress code</h2>
+          <h2 className="r_title">What to wear</h2>
           <div class="image-wrapper">
             <img
               src="https://i.imgur.com/aODQXMP.jpeg"
@@ -45,14 +45,14 @@ const Registry = () => {
           </p>
           <button className="rsvp_btn">
             <Link
-              to="/faq"
+              to="/dress"
               style={{
                 color: "#fff",
                 background: "#000",
                 textDecoration: "none",
               }}
             >
-              FAQS
+           Dress Code
             </Link>
           </button>
         </div>

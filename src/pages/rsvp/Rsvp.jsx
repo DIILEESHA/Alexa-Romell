@@ -47,11 +47,11 @@ const Rsvp = () => {
     <div className="rsvp">
       <div className="rep">
         <div className="rsvp_img">
-          <img
+          {/* <img
             className="dot"
             src="https://i.imgur.com/HCKku7v.jpeg"
             alt="Wedding background"
-          />
+          /> */}
         </div>
       </div>
       <div className="details_rsvps">
