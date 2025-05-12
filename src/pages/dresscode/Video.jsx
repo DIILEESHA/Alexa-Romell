@@ -1,5 +1,5 @@
 import vif from "../../video/vide.mp4";
-import "./v.css"
+import "./v.css";
 const Video = () => {
   return (
     <div className="vg">

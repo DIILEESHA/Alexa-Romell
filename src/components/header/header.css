@@ -102,6 +102,7 @@
   }
   .header_grid {
     display: flex;
+    padding: 20px 20px 90px 20px;
   }
 
   .hg {
