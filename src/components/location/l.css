@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.kk{
+.kk {
   top: 50px !important;
 }
 
@@ -33,9 +33,16 @@
   background: linear-gradient(to bottom, #fff, transparent);
   z-index: 0;
 }
-
-
-.mallika{
+.mal {
+  display: flex;
+}
+.plyan {
+  display: flex;
+  flex-direction: column;
+  margin-top: -40px;
+  margin-bottom: -30px;
+}
+.mallika {
 }
 
 .two {

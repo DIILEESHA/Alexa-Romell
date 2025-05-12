@@ -14,7 +14,7 @@ const AdminDashboard = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [showPasswordModal, setShowPasswordModal] = useState(true);
 
-  const ADMIN_PASSWORD = "123"; // Change this
+  const ADMIN_PASSWORD = "alex123"; // Change this
 
   const columns = [
     {

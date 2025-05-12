@@ -29,6 +29,19 @@ const Location = () => {
           </p>
         </div>
       </div>
+
+      <div className="naughty plyan">
+        <div className="naughty_sub">
+          <p className="header_p">Saturday, November 8th, 2025</p>
+        </div>
+        <div className="naughty_sub">
+          <p className="header_p">
+            61 W. Utah Ave STE 141
+            <br />
+            Las Vegas, Nevada, NV 89102
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
